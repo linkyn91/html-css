@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p><!--tag code muda a fonte e o espaçamente para facilitar leitura-->
+    <pre>
+        <code>
+num = int(input('Digite um número'))
+if num % 2 ==0:
+    print(f'0 número {num}é PAR)
+else:
+    print(f'0 número {num}é ÍMPAR)
+print('fim do programa')<!--exemplo de programação em PITON-->
+        </code>
+    </pre><!--teg pre serve para manter a formatação e alinhamento exatamente como esta escrito aqui no modo programação    /   e para tirar os tabs de varias linha ao mesmo tempo selecione oq quer tirar e precione shift+ tab e o contrário sem shift-->
+
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p><!--tag q coloca áspas, pode ser colocado manualmente ou com tag porem com tag q vc da sentido ao motivo das áspas caso seja uma citação -->
+    <h2>Citações completas</h2>
+    <p>Segundo o Livro Programação em HTML: 
+        <blockquote cite="https://www.google.com.br/books/edition/Use_a_Cabe%C3%A7a_Programa%C3%A7%C3%A3o_em_HTML_5/mKW6BAAAQBAJ?hl=pt-BR&gbpv=1&dq=html&printsec=frontcover">
+            As vezes saber onde se está faz toda a diferença.
+        </blockquote>
+    </p><!--tag blockquote cria um deslocamento para a citação e quando colocado cite= vc coloca o link de onde esta citação pode ser encontrada o cite= é opcional mas importante sempre que possível-->
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    abbr<!--tag abbr permite que vc coloque um titulo com o significado da paravra selecionada na tag que sera exibido quando o usuário passar o mouse por cima-->
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+    <p><bdo dir="ltr">Estou aprendendo a criar coisas em HTML</bdo></p>
+    <!--tag bdo inverto o tex rtl da direita para a esquerda e 
+    ltr da esquerda para a direita-->
+</body>
+</html>

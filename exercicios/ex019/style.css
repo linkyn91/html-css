@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(249, 113, 113);
+}
+
+main {
+    background-color: white;
+    text-align: justify;
+    box-shadow: 20px 20px 20px gray;
+    border-radius: 40px;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    color: blue;
+}
+h1#principal/* simbolo # no css substitui o id no html(principal ou id não se repete) */ {
+    color: darkmagenta;
+    text-align: center;
+}
+h2 {
+    color: brown;
+}
+h2.basico/* simbolo . no css substitui o class no html (class pode repetir)*/ {
+    color: orange;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adaptando imagem em telas diferentes</title>
+</head>
+<body>
+    <h1>imagem dinâmica</h1>
+    <p>Abra a imagem </p>
+
+    <picture><!--tag para imagem dinamica + source midia type-->
+        <source media="(max-width: 750px)" srcset="imagens/img-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/img-m.png" type="image/png">
+        <img src="imagens/img-g.png" alt="imagem g">
+    </picture> <!--a ordem é obrigatória do menor pro maior para funcionar-->
+    <h1>reproduzindo áudio</h1>
+    <p>aprendendo reproduzir Áudio em html5</p>
+   <audio preload="auto" autoplay controls loop>
+       <source src="midia/Smokey's Lounge - TrackTribe.mp3" type="audio/mpeg">
+       <source src="midia/Smokey's Lounge - TrackTribe.ogg" type="audio/ogg">
+       <source src="midia/Smokey's Lounge - TrackTribe.wav" type="audio/wav"> <!--evitar wav por ser muito pesado-->
+       <p>infelizmente não rolou a musica</p>
+   </audio>
+</body>
+</html>

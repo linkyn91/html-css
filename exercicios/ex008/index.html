@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formatação de textos</title>
+    <style>
+        mark {background-color: rgb(122, 122, 241);}
+    </style><!--para altera cor de todos os "mark" de uma só vez deve se usar a tag style na part head-->
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um <b>termo em negrito </b> usando a tag B</p> <!--clicando em b e enter cria-se a tag b para deixar em negrito o que fica entre ela-->
+    <p>Nesta frase temos um <strong>termo em destaque </strong>usando a tag strong <!--aparentemente igual ao negrito porem para a programação da um sentido maior ao termo--></p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálic</i>o usando a tag I (não semântica)</p> <!--para colocar uma tag como por ex o italico quando não aparece o atalho automaticamente; deve se precionar ctrl+shift+p apos selecionar a frase que ficara entre a tag escolhida escolher a opção abb (Wrap with abbreviation) e depois digitar a tag escolhida-->
+    <p>Nesta frase, <em>temos um termo em ênfase </em>usando a tag EM (semântica)</p> <!--aparentemente igual itálico porem com significado(semântica) tags com significados são mais modernas..... quanto tem sentido é html e quanto é só forma é css..... melhor não usar tag p e tag i no html-->
+    <h2>Texto marcado</h2>
+    <p>podemos também criar <mark>um texto marcado</mark> usando a tag MARK</p><!--marca texto-->
+    <p>para trocar a<mark style="background-color: rgb(224, 104, 104);"> cor do marca texto</mark> usamos css lógo apos a tag mark usando a palavra do css style</p><!--comando backgroun-color para trocar cor do marca texto dentro do css stile-->
+    <h2>Textos grande e pequeno</h2>
+    <p>estamos criando um <big>texto grande</big> e um <small>texto pequeno </small>neste parágrafo</p><!--para aumentar um pouco ou diminuir um pouco note que big ja não se usa mais-->
+    <h2>Texto deletado</h2>
+    <p>podemos marcar<del> um texto como excluído</del> para indicar que ele deve ser lido porém não considerado</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar ênfase e indicar que ele foi adicionado posteriormente.</p>
+    <p>existe também <u>o sublinhado com a tag U </u></p> <!--tag u é sem sentido apenas sublinhado-->
+    <h2>Texto sobscrito</h2>
+    <p>para escrever coisas do tipo x<sup><mark>20</mark></sup>+3</p>
+    <h2>Texto subscrito</h2>
+    <p>para escrever coisas do tipo H<sub><mark>2</mark></sub>O</p><!--tags sup em cima e sub em baixo-->
+</body>
+</html>
