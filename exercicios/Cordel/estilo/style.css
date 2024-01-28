@@ -57,11 +57,26 @@ section {
     line-height: 2em;
 }
 
-section.imagem {
-    background-color: gray;
-
+section > p{
+    padding-bottom: 2em;
 }
 
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-size: cover;
+    background-position: right;
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
+    background-position: right;
+}
+
+section.imagem {
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
+    background-attachment: fixed;
+}
 section.imagem > p {
     background-color: rgba(255, 255, 255, 0.5);
     display: inline-block;
